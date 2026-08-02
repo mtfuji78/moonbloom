@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Bloom ✨🌙</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= SKY ================= -->
+
+<div id="sky">
+    <div id="moon"></div>
+
+    <div id="stars"></div>
+
+    <div id="shooting-stars"></div>
+
+    <div id="clouds"></div>
+
+    <div id="fireflies"></div>
+
+    <div id="petals"></div>
+
+    <div id="sparkles"></div>
+
+    <div id="floating-hearts"></div>
+</div>
+
+<!-- ================= GARDEN ================= -->
+
+<div id="garden">
+
+    <div class="grass"></div>
+
+    <div id="flower-field"></div>
+
+    <div id="butterflies"></div>
+
+</div>
+
+<!-- ================= MAIN CARD ================= -->
+
+<div class="card">
+
+<h1>🌙 Moon Bloom 🌸</h1>
+
+<p>
+Welcome to your magical moon garden.
+Every click fills the night with flowers,
+sparkles, butterflies, petals and dreams.
+</p>
+
+<div class="buttons">
+
+<button id="bloomBtn">
+🌸 Bloom the Night
+</button>
+
+<button id="wishBtn">
+⭐ Make a Wish
+</button>
+
+<button id="butterflyBtn">
+🦋 Release Butterflies
+</button>
+
+<button id="petalBtn">
+🌸 Petal Rain
+</button>
+
+<button id="dreamBtn">
+💖 Dream Mode
+</button>
+
+<button id="gardenBtn">
+🌺 Fairy Garden
+</button>
+
+<button id="musicBtn">
+🎵 Music
+</button>
+
+</div>
+
+<div class="counter">
+
+Flowers Bloomed:
+<span id="flowerCount">0</span>
+
+</div>
+
+</div>
+
+<!-- Secret Message -->
+
+<div id="secretMessage">
+
+✨
+You discovered the Fairy Garden.
+✨
+
+</div>
+
+<!-- Cursor Trail -->
+
+<div id="cursorTrail"></div>
+
+<!-- Audio -->
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="bloomSound">
+    <source src="bloom.wav" type="audio/wav">
+</audio>
+
+<!-- ================= TEMPLATES ================= -->
+
+<template id="flowerTemplate">
+
+<div class="flower">
+
+<div class="petal p1"></div>
+<div class="petal p2"></div>
+<div class="petal p3"></div>
+<div class="petal p4"></div>
+<div class="center"></div>
+
+</div>
+
+</template>
+
+<template id="butterflyTemplate">
+
+<div class="butterfly">
+
+<div class="wing left"></div>
+
+<div class="wing right"></div>
+
+<div class="body"></div>
+
+</div>
+
+</template>
+
+<template id="sparkleTemplate">
+
+<div class="sparkle">✨</div>
+
+</template>
+
+<template id="heartTemplate">
+
+<div class="heart">💖</div>
+
+</template>
+
+<template id="fireflyTemplate">
+
+<div class="firefly"></div>
+
+</template>
+
+<template id="cloudTemplate">
+
+<div class="cloud">
+
+<div></div>
+<div></div>
+<div></div>
+
+</div>
+
+</template>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+Made with 🌸 under the moonlight 🌙
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
